@@ -1,0 +1,19 @@
+Filter
+JavaScript's filter method serves as a powerful tool for selectively extracting elements from arrays based on certain conditions.
+
+
+callback function
+A JavaScript callback is a function which is to be executed after another function has finished execution.
+
+
+Array.every()	
+The Array.every() method is used to check whether all the elements of the array satisfy the given condition or not.	
+
+
+some
+The Array.some() method is used to check whether at least one of the elements of the array satisfies the given condition or not.
+
+
+map
+map() creates a new array from calling a function for every array element. map() does not execute the function for empty elements. map() does not change the original array.
+
