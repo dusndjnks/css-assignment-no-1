@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            screens: {
+      'sm': '640px',
+      // => @media (min-width: 640px) { ... }
+
+      'md': '768px',
+      // => @media (min-width: 768px) { ... }
+
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': '1280px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '1536px',
+      // => @media (min-width: 1536px) { ... }
+    },
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <nav class="bg-slate-900 flex items-center text-white h-14  justify-between ">
+            <div class="flex items-center pl-11 gap-2" >
+                <img src="images-removebg-preview.png " class="h-14" alt="">
+                <p class="font-semibold text-lg">tailwindcss</p>
+            </div>
+            <div class="flex gap-5 flex-lg flex-lg flex">
+                <div class="text-white gap-10 hidden lg:flex border-r border-gray-600 pr-5 ">
+                    <p class="cursor-pointer hover:text-blue-600">Docs</p>
+                    <p class="cursor-pointer hover:text-blue-600">Components</p>
+                    <p class="cursor-pointer hover:text-blue-600">Blog</p>
+                    <p class="cursor-pointer hover:text-blue-600">Showcase</p>
+                </div>
+                <div class="flex gap-1 pr-11   ">
+                    <div class="relative w-12 hidden lg:flex items-center relative gap-6">
+                        <div class="hidden lg:flex gap-4">
+                            <i class="fa-regular fa-moon fa-lg" style="color: #8b93a2;"></i>
+                            <div class="absolute text-white text-sm  px-2 font-semibold right-4 top-0">
+                                <i class="fa-solid fa-star fa-2xs" style="color: #8b93a2;"></i>
+                            </div></i>
+                        </div>
+                        <i class="fa-brands fa-github fa-lg" style="color: #8b93a2;" ></i>
+                    </div>  
+                     
+                        <div class="flex lg:hidden gap-7 pl-7 items-center">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                </div>
+            </div>
+          
+        </nav>
+    </div>
+</body>
+</html>
